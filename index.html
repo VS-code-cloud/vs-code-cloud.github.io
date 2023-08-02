@@ -5,40 +5,50 @@
     <link rel="stylesheet" href="style.css">
     <title>Vishnu Sharma | Programmer</title>
 </head>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollow"></div>
 <body>
     <nav class="navbar">
         <a href="#about_me" class="navbar-div" style="text-decoration: none">About Me</a>
         <a href="#experience" class="navbar-div" style="text-decoration: none">Experience</a>
         <a class="navbar-div" style="text-decoration:none" href="https://docs.google.com/document/d/1vCBpEP1H49d7zVEMDD2Y3NNwA0IzH6iDPxB4Fy8UuxA/edit?usp=sharing" target="_blank">Resume</a>
-        <a href="#contact_info" class="navbar-div" style="text-decoration: none">Contact Information</a>
+        <a href="#about_me" class="navbar-div" style="text-decoration: none">Contact Information</a>
     </nav>
     <div id="bg"></div>
+    <div style="margin-left: 10vw; margin-right: 10vw">
     <div class="main">
         <div class="subdiv">
-            <div class="bigtext" ><p1>Vishnu Sharma - <h1 id="aspects"></h1>
-            </p1></div>
+            <h1 class="small-green" style="font-weight: 400; font-size: 25px">My name is</h1>
+            <div class="bigtext" ><p1>Vishnu Sharma<br/> I am a<h1 id="aspects"></h1>
+            </div>
         </div>
-        <img class="computer" src="programming.svg"></img>
+        <img class="flex-image" src="images/programming.svg"></img>
 
     </div>
-    <div id="about_me">
-     <div class="column-2 profile_photo">
-     </div>
-     <div id="contact_info">
-        <div class="column-2">
-         <h1>About Me</h1>
-         <p>I am Vishnu Sharma, a student at Montgomery High School in New Jersey. My interests include history, playing card games, coding, and learning more about the world around me. I am currently entering 11th grade.</p>
-         <br/><p>Contact information: <br/><br/>Email: vishnuamogha.sharma@gmail.com <br/> <br/>Or LinkedIn: <a href="https://www.linkedin.com/in/vishnu-s-6a1555230/">https://www.linkedin.com/in/vishnu-s-6a1555230/</a> </p>
-     </div>
+    <h1 class="bigtext" id="contact_info" style="text-align: center">About Me</h1>
+
+    <div class="main" style="margin-top: 0vh;" id="about_me">
+        <img class="about-img" src="images/vishnu_sharma.jpg"></img>
+        <div>
+         <p>I am Vishnu Sharma, a student at Montgomery High School in New Jersey. My interests include history, playing card games, coding, and learning more about the world around me. I am currently entering 11th grade.<br/><p>Contact information: <br/><br/>Email: vishnuamogha.sharma@gmail.com <br/> <br/>Or <a href="https://www.linkedin.com/in/vishnu-s-6a1555230/" style="text-decoration: underline; color: white">My Linkedin</a> </p></p>
+         
      </div>
      </div>
-    <div class="container">
-        <h1 id="bigtext" class="center"><p1 style="color: gold">Jobs</p1> and Volunteer Experience</h1>
-        <div class="gallery-wrap" id="experience">
-          <div class="item"><div class="sideText ">
-            <div class="medtext center">Neuracode</div>
-            <p1 class="center" style="margin-top: 0">Director of Machine Learning</p1>
-            <p1 class="center" style="margin-top: 0">June 2022 - November 2022</p1><ul><li>Created an Intermediate Keras curriculum, contribution to Introduction to Python and Machine Learning</li><li>Managed the machine learning curriculum & ideated with other directors as the machine learning director</li></ul></div><img class="cardImg" src="neuracode.png"/>
+    <div class="container"  id="experience">
+        <h1 class="center bigtext"><p1 style="color: gold">Jobs</p1> and Volunteer Experience</h1>
+        <div class="gallery-wrap">
+          <div class="item">
+            <div class="sideText ">
+                <div class="medtext center">Neuracode</div>
+                <p1 class="center" style="margin-top: 0">Director of Machine Learning</p1>
+                <p1 class="center" style="margin-top: 0">June 2022 - November 2022</p1>
+                <ul>
+                    <li>Created an Intermediate Keras curriculum, contribution to Introduction to Python and Machine Learning</li>
+                    <li>Managed the machine learning curriculum & ideated with other directors as the machine learning director</li>
+                </ul>
+            </div>
+            <img class="cardImg" src="images/neuracode.png"/>
         </div>
           <div class="item">
             <div class="sideText ">
@@ -48,7 +58,7 @@
                 <ul>
                 </ul>
             </div>
-            <img class="cardImg" src="MHSLogo.png"/>
+            <img class="cardImg" src="images/MHSLogo.png"/>
         </div>
           <div class="item goldborder">
               <div class="sideText">
@@ -61,7 +71,7 @@
                       <li>Spearheaded integration with Google Cloud, Twilio, and Stripe</li>
                   </ul>
               </div>
-              <img class="cardImg" src="seekerpitch.jpg"/>
+              <img class="cardImg" src="images/seekerpitch.jpg"/>
         </div>
           <div class="item goldborder">
               <div class="sideText">
@@ -73,7 +83,7 @@
                       <li>Taught kids how to code in Scratch and Javascript</li>
                   </ul>
               </div>
-              <img class="cardImg" src="codeninjas.jpg"/>
+              <img class="cardImg" src="images/codeninjas.jpg"/>
         </div>
           <div class="item">
               <div class="sideText ">
@@ -85,10 +95,17 @@
                       <li>Patient narratives formation</li>
                   </ul>
               </div>
-              <img class="cardImg" src="bloomtolife.jpg"/>
+              <img class="cardImg" src="images/bloomtolife.jpg"/>
         </div>
         </div>
        </div>
+       <h1 class="bigtext center flexbox-horizontal separator">Skills</h1>
+       <div class="flexbox-horizontal ">
+            <div class="skill-box"></div>
+       </div>
+       <div class="skillsContainer">
+    </div>
+    </div>
     <script src="main.js"></script>
 
 </body>
