@@ -75,24 +75,24 @@ let skills = [
 		"time": "3 years"
 	},
 	{
-		"url": "",
-		"name": "",
-		"time": ""
+		"url": "sailsLogo.png",
+		"name": "Sails",
+		"time": "3 years"
 	},
 	{
-		"url": "",
-		"name": "",
-		"time": ""
+		"url": "githubLogo.png",
+		"name": "Github",
+		"time": "3 years"
 	},
 	{
-		"url": "",
-		"name": "",
-		"time": ""
+		"url": "javascriptLogo.png",
+		"name": "Javascript",
+		"time": "3 years"
 	},
 	{
-		"url": "",
-		"name": "",
-		"time": ""
+		"url": "postgreLogo.png",
+		"name": "PostgreSQL",
+		"time": "3 years"
 	},
 	
 
