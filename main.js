@@ -1,5 +1,5 @@
 var display = [ 
-	"High School Student",
+	"College Student",
     "Musician",
     "Programmer"
 ];
